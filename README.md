@@ -99,4 +99,4 @@ This project is licensed under the MIT License.
 
 ## 🔗 Contact
 
-Created by **\Lishan Eticha Geleta**  ·  [@Lishaneticha](https://github.com/Lishaneticha)
+Created by **Lishan Eticha Geleta**  ·  [@Lishaneticha](https://github.com/Lishaneticha)
