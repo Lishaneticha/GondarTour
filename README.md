@@ -23,7 +23,7 @@
 
 | Driver Dashboard | Fuel Logs |
 | ---------------- | --------- |
-| ![Dashboard](screenshots/driverDashboard1.jpg) | ![Fuel Logs](screenshots/driverDashboard2.jpg) |
+| ![Dashboard](screenshots/driverDashboard1.jpg) | ![Fuel Logs](screenshots/feulLogs.jpg) |
 | ![Dashboard](screenshots/driverDashboard2.jpg) |  |
 
 ---
@@ -82,6 +82,12 @@
 ## 🙋 Contributing
 
 Feel free to fork this repo and submit pull requests! For major changes, please open an issue first.
+
+---
+
+## 📦 Download
+
+[⬇️ Download Latest APK](https://drive.google.com/file/d/1i6Y0_siX7VQxwyrIRRI1vAVhzWs33i1K/view?usp=sharing)
 
 ---
 
