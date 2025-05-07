@@ -47,12 +47,39 @@
 
 2. **Open in Android Studio**
 
-3. **Add Google Maps API Key** In `AndroidManifest.xml`:
+3. **Add Google Maps API Key Securely**
+
+   In the root `local.properties` file (not pushed to Git):
+
+   ```properties
+   MAPS_API_KEY=your_actual_google_maps_api_key
+   ```
+
+   In `build.gradle.kts` (app-level):
+
+   ```kotlin
+   val localProperties = java.util.Properties().apply {
+       val localPropsFile = rootProject.file("local.properties")
+       if (localPropsFile.exists()) {
+           localPropsFile.inputStream().use { load(it) }
+       }
+   }
+
+   val mapsApiKey = localProperties.getProperty("MAPS_API_KEY") ?: ""
+
+   android {
+       defaultConfig {
+           resValue("string", "google_maps_key", mapsApiKey)
+       }
+   }
+   ```
+
+   Then reference it in `AndroidManifest.xml`:
 
    ```xml
    <meta-data
        android:name="com.google.android.geo.API_KEY"
-       android:value="YOUR_API_KEY_HERE" />
+       android:value="@string/google_maps_key" />
    ```
 
 4. **Run the app** on an emulator or device.
@@ -99,4 +126,5 @@ This project is licensed under the MIT License.
 
 ## 🔗 Contact
 
-Created by **\[Lishan Eticha]**  ·  [@Lishaneticha](https://github.com/Lishaneticha)
+Created by **Lishan Eticha Geleta**  ·  [@Lishaneticha](https://github.com/Lishaneticha)
+
