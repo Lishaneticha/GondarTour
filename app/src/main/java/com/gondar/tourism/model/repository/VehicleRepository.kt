@@ -1,15 +1,10 @@
 package com.gondar.tourism.model.repository
 
-import com.gondar.tourism.model.api.VehicleApi
-import com.gondar.tourism.model.dao.FuelLogDao
 import com.gondar.tourism.model.entity.FuelLog
-import javax.inject.Inject
+import com.gondar.tourism.model.entity.Vehicle
 
-class VehicleRepository @Inject constructor(
-    private val api: VehicleApi,
-    private val dao: FuelLogDao
-) {
-    suspend fun getVehicleLocations() = api.getVehicles()
-    suspend fun addFuelLog(log: FuelLog) = dao.insert(log)
-    suspend fun getFuelLogs() = dao.getAll()
+interface VehicleRepository {
+    suspend fun getVehicleLocations(): List<Vehicle>
+    suspend fun addFuelLog(log: FuelLog)
+    suspend fun getFuelLogs(): List<FuelLog>
 }
