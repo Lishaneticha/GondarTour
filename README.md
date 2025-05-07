@@ -4,7 +4,7 @@
 
 ## 📦 Download
 
-[⬇️ Download Latest APK](https://github.com/Lishaneticha/GondarTour/tree/main/apk/app-release.apk)
+[⬇️ Download Latest APK](https://drive.google.com/file/d/1i6Y0_siX7VQxwyrIRRI1vAVhzWs33i1K/view?usp=sharing)
 
 ---
 
