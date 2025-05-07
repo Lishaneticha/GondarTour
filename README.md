@@ -2,6 +2,10 @@
 
 **GondarTour** is an Android application built with Kotlin, Jetpack Compose, and Hilt. It is designed for tourist guiding companies to track vehicle locations and manage fuel consumption efficiently.
 
+## 📦 Download
+
+[⬇️ Download Latest APK](https://github.com/Lishaneticha/GondarTour/tree/main/apk/app-release.apk)
+
 ---
 
 ## 📱 Features
