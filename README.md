@@ -23,7 +23,7 @@
 
 | Driver Dashboard | Fuel Logs |
 | ---------------- | --------- |
-| ![Dashboard](<img src="screenshots/driverDashboard1.jpg" width="400" />) | ![Fuel Logs](screenshots/driverDashboard2.jpg) |
+| ![Dashboard](screenshots/driverDashboard1.jpg) | ![Fuel Logs](screenshots/driverDashboard2.jpg) |
 | ![Dashboard](screenshots/driverDashboard2.jpg) |  |
 
 ---
